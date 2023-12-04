@@ -1,2 +1,2 @@
-# GL2VHN
+# webfejlesztes 
 beadando
