@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: mystyle;
+    src: url("../formazas/stilus.ttf");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: mystyle;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container>* {
+    margin: 1%;
+    height: fit-content;
+}
+
+
+header {
+    display: flex;
+    background-color: red;
+    text-shadow: 3px 3px 5px black;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    height: 1.5em;
+    margin: auto;
+    display: flex;
+}
+
+.zaszlo {
+    height: 1em;
+    margin: auto;
+    display: flex;
+    box-shadow: 3px 3px 5px black;
+}
+
+article {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 15px;
+    padding: 0px 8px;
+    color: white;
+    text-align: justify;
+    flex: 1 1 100%;
+}
+
+article.kviz {
+    background-color: rgba(0, 0, 0, .3);
+
+    justify-content: center;
+}
+
+h5 {
+    font-size: large;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, .3);
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.84em;
+    border-radius: 15px;
+    flex: 1 1 100%;
+}
+
+aside.specs {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+nav {
+    padding: 8px;
+    flex: 1 1 100%;
+}
+
+.tipusok {
+    font-family: mystyle;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tipusok li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 1em 0 1em;
+}
+
+.tipusok a {
+    padding: 0.5em 1em;
+    margin: 0;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.tipusok .active {
+    color: white;
+    font-weight: bold;
+}
+
+.tipusok a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.fooldal::before {
+    background-image: url(../formazas/fooldal2.png);
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.rs3::before {
+    background-image: url(../formazas/rs3hatter.jpg);
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.rs4::before {
+    background-image: url(../formazas/rs4hatter.jpg);
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.rs5::before {
+    background-image: url(../formazas/rs5hatter.jpg);
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.rs6::before {
+    background-image: url(../formazas/rs6hatter.jpg);
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.rs7::before {
+    background-image: url(../formazas/rs7hatter.jpg);
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.quiz::before {
+    background-image: url(../formazas/quiz.jpg);
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+img.motor {
+    height: 10em;
+    float: right;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+
+.video {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+
+}
+
+.video0 {
+    width: 48%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.gomb {
+    color: yellow;
+    background-color: transparent;
+    border-color: yellow;
+    font-weight: bold;
+}
+
+.crash {
+    width: 100%;
+}
+
+article.teszt {
+    justify-content: center;
+    text-align: center;
+}
+
+.galleria {
+    margin: auto;
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (min-width: 600px) {
+    nav {
+        flex-basis: 98%;
+    }
+
+    article {
+        flex-basis: 48%;
+    }
+
+    aside {
+        flex-basis: 48%;
+    }
+
+    aside.sepcs {
+        flex-basis: 98%;
+    }
+
+    article.story {
+        flex-basis: 98%;
+    }
+
+}
+
+@media all and (min-width: 768px) {
+    nav {
+        flex-basis: 98%;
+    }
+
+    article {
+        flex-basis: 48%;
+    }
+
+    aside {
+        flex-basis: 48%;
+    }
+
+    aside.specs {
+        flex-basis: 23%;
+    }
+
+    article.story {
+        flex-basis: 73%;
+    }
+
+}

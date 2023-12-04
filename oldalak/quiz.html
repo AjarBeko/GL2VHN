@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Osgyáni Bekő">
+    <meta name="copyright" content="Csak tanulmányi célokra">
+    <meta name="description" content="Audi RS modellek bemutatása">
+    <link rel="stylesheet" href="../formazas/styles.css">
+    <link rel="icon" href="../formazas/ikon.jpg" type="image/x-icon">
+    <title>Audi RS modellek</title>
+</head>
+
+<body class="quiz">
+    <header>
+        <img src="../formazas/logo.png" alt="logo" class="logo">
+        Audi RS modellek
+        <img src="../formazas/german_flag.png" alt="zaszlo" class="zaszlo">
+    </header>
+    <div class="container">
+        <nav>
+            <ul class="tipusok">
+                <li><a href="../oldalak/index.html">Főoldal</a></li>
+                <li><a href="../oldalak/rs3.html">RS 3</a></li>
+                <li><a href="../oldalak/rs4.html">RS 4</a></li>
+                <li><a href="../oldalak/rs5.html">RS 5</a></li>
+                <li><a href="../oldalak/rs6.html">RS 6</a></li>
+                <li><a href="../oldalak/rs7.html">RS 7</a></li>
+                <li><a class="active" href="#">Quiz</a></li>
+            </ul>
+        </nav>
+
+        <article class="teszt">
+            <h2>Válaszolj a kérdésekre, hogy kiderüljön, mennyire ismered az Audit!</h2>
+            <h2>Hány lóerős a legerősebb modell amelyet említettem a weblapon?</h2>
+            <label><input type="radio" name="elso" id="1_1"><span id="rossz1_1">400</span></label><br>
+            <label><input type="radio" name="elso" id="1_2"><span id="jo1">600</span></label><br>
+            <label><input type="radio" name="elso" id="1_3"><span id="rossz1_2">500</span></label><br>
+            
+            <h2>Mikotról gyártották az első Audi RS 2-es modellt?</h2>
+            <label><input type="radio" name="masodik" id="2_3"><span id="jo2">1994</span></label><br>
+            <label><input type="radio" name="masodik" id="2_1"><span id="rossz2_1">1999</span></label><br>
+            <label><input type="radio" name="masodik" id="2_2"><span id="rossz2_2">1995</span></label><br>
+
+            <h2>Mekkora a legagyobb sebesség amire egy mezei RS 6-os modell képes?</h2>
+            <label><input type="radio" name="harmadik" id="3_1"><span id="rossz3_1">290</span></label><br>
+            <label><input type="radio" name="harmadik" id="3_2"><span id="rossz3_2">250</span></label><br>
+            <label><input type="radio" name="harmadik" id="3_3"><span id="jo3">305</span></label><br>
+
+            <h2>Melyik a legpraktikusabb típus a hétköznapokra és az üzleti utakra is akár? </h2>
+            <label><input type="radio" name="negyedik" id="4_1"><span id="rossz4_1">RS 7</span></label><br>
+            <label><input type="radio" name="negyedik" id="4_3"><span id="jo4">RS 6</span></label><br>
+            <label><input type="radio" name="negyedik" id="4_2"><span id="rossz4_2">RS 4</span></label><br>
+
+            <h2>Melyik a legdrágább Audi ezekközül?</h2>
+            <label><input type="radio" name="otodik" id="5_1"><span id="rossz5_1">RS 5</span></label><br>
+            <label><input type="radio" name="otodik" id="5_2"><span id="rossz5_2">RS 3</span></label><br>
+            <label><input type="radio" name="otodik" id="5_3"><span id="jo5">RS 7</span></label><br>
+
+            <h2>Mennyi az átlagos fogyásztásuk ezeknek a modelleknek átlagban? </h2>
+            <label><input type="radio" name="hatodik" id="6_1"><span id="jo6">~10,5 l</span></label><br>
+            <label><input type="radio" name="hatodik" id="6_2"><span id="rossz6_1">~9,1 l</span></label><br>
+            <label><input type="radio" name="hatodik" id="6_3"><span id="rossz6_2">~12,3 l</span></label><br>
+
+            <h2>Melyik a legjobb márka?</h2>
+            <label><input type="radio" name="hetedik" id="7_1"><span id="rossz7_1">BMW</span></label><br>
+            <label><input type="radio" name="hetedik" id="7_2"><span id="jo7">Audi</span></label><br>
+            <label><input type="radio" name="hetedik" id="7_3"><span id="rossz7_2">Mercedes</span></label><br>
+
+            <h2>Szerinted az Audi a legjobb márka?</h2>
+            <label><input type="radio" name="nyolcadik" id="8_1"><span id="jo8">Igen!!!</span></label><br>
+            <label><input type="radio" name="nyolcadik" id="8_2"><span id="jo9">Naná!!!</span></label><br>
+            <label><input type="radio" name="nyolcadik" id="8_3"><span id="jo10">Persze!!!</span></label><br>
+
+            <h2>Miért érdemes az Audit válsztani?</h2>
+            <label><input type="radio" name="nyolcadik" id="9_1"><span id="jo11">Mert csak</span></label><br>
+            <label><input type="radio" name="nyolcadik" id="9_2"><span id="jo12">Van más márka is???</span></label><br>
+            <label><input type="radio" name="nyolcadik" id="9_3"><span id="jo13">Azért mert</span></label><br> <br>
+            
+            <input type="button" id="mybutton" value="Végeredmény"><br><br>
+            <a  href="https://www.youtube.com/watch?v=a3Z7zEc7AXQ" target="_blank" ><input type="button" value="Újrapróba"></a><br><br>
+            <div class="pontok" id="pontok">Ezt sikerűlt teljesítened: </div><br>
+        </article>
+    </div>
+    <footer>©Kizárólag oktatási célokat szolgál</footer>
+    <script src="../java/java.js"></script>
+</body>
+
+</html>
