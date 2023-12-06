@@ -86,26 +86,35 @@
         <article class="kviz">
             <form method="post" action="http://szamtud.uni-corvinus.hu/receive.php">
                 <h5> Miket tartasz fontosnak annak érdekében, hogy az autód a lehető legjobban szerethető legyen? </h5>
-                
-                <input type="checkbox" name="Hp" value="on" id="hp_"><label for="hp_">Lóerő</label><input type="number" min="0" max="10000" step="50" name="Hp_" ><br>
-                <input type="checkbox" name="Nm" value="on" id="nm_"><label for="nm_">Nyomaték</label> <input type="number" min="0" max="10000" step="50" name="Nm_" ><br>
-                <input type="checkbox" name="Fogyasztás" value="on" id="fogy_"><label for="fogy_">Fogyasztás</label> <input type="number" min="0" max="100" step="2" name="Fogyasztás_" placeholder="liter" ><br>
-                <input type="checkbox" name="0-100" value="on" id="gyors"><label for="gyors">Gyorsulás</label><input type="number" min="0" max="100" step="0.1" name="0-100_" placeholder="sec" ><br>
-                <input type="checkbox" name="Kinézet" value="on" id="kin_"><label for="kin_">Kinézet</label> <input type="color" name="color" > <br>
-                <input type="checkbox" name="végsebesség" value="on" id="seb"><label for="seb">Végsebesség</label> <input type="number" min="0" max="600" step="20" name="Végsebesség" placeholder="km/h" ><br>
-                <input type="checkbox" name="Evjarat" value="on" id="gyart"><label for="gyart">Gyártási időpont</label> <input type="date" name="Evjarat_"  > <br>
+
+                <input type="checkbox" name="Hp" value="on" id="hp_"><label for="hp_">Lóerő</label><input type="number"
+                    min="0" max="10000" step="50" name="Hp_"><br>
+                <input type="checkbox" name="Nm" value="on" id="nm_"><label for="nm_">Nyomaték</label> <input
+                    type="number" min="0" max="10000" step="50" name="Nm_"><br>
+                <input type="checkbox" name="Fogyasztás" value="on" id="fogy_"><label for="fogy_">Fogyasztás</label>
+                <input type="number" min="0" max="100" step="2" name="Fogyasztás_" placeholder="liter"><br>
+                <input type="checkbox" name="0-100" value="on" id="gyors"><label for="gyors">Gyorsulás</label><input
+                    type="number" min="0" max="100" step="0.1" name="0-100_" placeholder="sec"><br>
+                <input type="checkbox" name="Kinézet" value="on" id="kin_"><label for="kin_">Kinézet</label> <input
+                    type="color" name="color"> <br>
+                <input type="checkbox" name="végsebesség" value="on" id="seb"><label for="seb">Végsebesség</label>
+                <input type="number" min="0" max="600" step="20" name="Végsebesség" placeholder="km/h"><br>
+                <input type="checkbox" name="Evjarat" value="on" id="gyart"><label for="gyart">Gyártási időpont</label>
+                <input type="date" name="Evjarat_"> <br>
                 <input type="checkbox" name="Motorhang" value="on" id="hang"><label for="hang">Motorhang</label>
-                <label><input type="text" name="Motorhang" list="Motorhang" > <br>
-                <datalist id="Motorhang">
-                    <option value="magas">
-                    <option value="mély">
-                    <option value="halk">
-                    <option value="hangos">
-                    <option value="közepes">
-                    <option value="elektromos">
+                <label><input type="text" name="Motorhang" list="Motorhang"> <br>
+                    <datalist id="Motorhang">
+                        <option value="magas">
+                        <option value="mély">
+                        <option value="halk">
+                        <option value="hangos">
+                        <option value="közepes">
+                        <option value="elektromos">
                     </datalist></label>
-                <input type="checkbox" name="Ár" value="on" id="ar"><label for="ar">Ár</label> <input type="number" min="0" max="1000000000" step="1000000" name="Ár" placeholder="Ft" ><br>
-                <input type="checkbox" name="Tömeg" value="on" id="tom"><label for="tom">Tömeg</label> <input type="number" min="0" max="10000" step="100" name="Tömeg" placeholder="kg" ><br> <br>
+                <input type="checkbox" name="Ár" value="on" id="ar"><label for="ar">Ár</label> <input type="number"
+                    min="0" max="1000000000" step="1000000" name="Ár" placeholder="Ft"><br>
+                <input type="checkbox" name="Tömeg" value="on" id="tom"><label for="tom">Tömeg</label> <input
+                    type="number" min="0" max="10000" step="100" name="Tömeg" placeholder="kg"><br> <br>
 
                 <input type="submit" value="Elküldés" class="gomb">
 

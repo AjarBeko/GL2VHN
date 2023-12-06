@@ -3,7 +3,7 @@ document.getElementById("vege").addEventListener("click", pontocskak);
 function pontocskak() {
 
     let pont = 0;
-/*1. kérdés*/
+    /*1. kérdés*/
     const a1 = document.getElementById("1_1").checked;
     const b1 = document.getElementById("1_2").checked;
     const c1 = document.getElementById("1_3").checked;
@@ -32,7 +32,7 @@ function pontocskak() {
         document.getElementById("rossz1_1").style.color = "white";
     }
 
-/*2. kérdés*/
+    /*2. kérdés*/
 
     const a2 = document.getElementById("2_1").checked;
     const b2 = document.getElementById("2_2").checked;
@@ -62,7 +62,7 @@ function pontocskak() {
         document.getElementById("rossz2_1").style.color = "white";
     }
 
-/*3. kérdés*/
+    /*3. kérdés*/
 
     const a3 = document.getElementById("3_1").checked;
     const b3 = document.getElementById("3_2").checked;
@@ -92,7 +92,7 @@ function pontocskak() {
         document.getElementById("rossz3_2").style.color = "white";
     }
 
-/*4. kérdés*/
+    /*4. kérdés*/
 
     const a4 = document.getElementById("4_1").checked;
     const b4 = document.getElementById("4_2").checked;
@@ -122,7 +122,7 @@ function pontocskak() {
         document.getElementById("rossz4_1").style.color = "white";
     }
 
-/*5. kérdés*/
+    /*5. kérdés*/
 
     const a5 = document.getElementById("5_1").checked;
     const b5 = document.getElementById("5_2").checked;
@@ -153,7 +153,7 @@ function pontocskak() {
         document.getElementById("rossz5_2").style.color = "white";
     }
 
-/*6. kérdés*/
+    /*6. kérdés*/
 
     const a6 = document.getElementById("6_1").checked;
     const b6 = document.getElementById("6_2").checked;
@@ -183,7 +183,7 @@ function pontocskak() {
         document.getElementById("rossz6_1").style.color = "white";
     }
 
-/*7. kérdés*/
+    /*7. kérdés*/
 
     const a7 = document.getElementById("7_1").checked;
     const b7 = document.getElementById("7_2").checked;
@@ -213,7 +213,7 @@ function pontocskak() {
         document.getElementById("rossz7_1").style.color = "white";
     }
 
-/*8. kérdés*/
+    /*8. kérdés*/
 
     const a8 = document.getElementById("8_1").checked;
     const b8 = document.getElementById("8_2").checked;
@@ -246,7 +246,7 @@ function pontocskak() {
         document.getElementById("jo8").style.color = "white";
     }
 
-/*9. kérdés*/
+    /*9. kérdés*/
 
     const a9 = document.getElementById("9_1").checked;
     const b9 = document.getElementById("9_2").checked;
@@ -286,7 +286,7 @@ function pontocskak() {
         document.getElementById("jo12").style.color = "white";
     }
 
-/*végeredmény*/
+    /*végeredmény*/
 
     if (pont < 1) {
         document.getElementById("pontok").innerText = "A pontod: " + String(pont) + "\nNem baj, a legjobbak is hibáznak (és te is)";
