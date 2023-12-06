@@ -131,7 +131,7 @@ nav {
 /*háttér formázása*/
 
 .fooldal::before {
-    background-image: url(../formazas/fooldal2.png);
+    background-image: url(../formazas/fooldal.jpg);
     position: fixed;
     content: "";
     top: 0;

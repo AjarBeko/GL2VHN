@@ -214,7 +214,10 @@ function pontocskak() {
     }
 
 
-    if (pont < 3) {
+    if (pont < 1) {
+        document.getElementById("pontok").innerText = "A pontod: " + String(pont) + "\nNem baj, a legjobbak is hibáznak (és te is)";
+
+    } else if (pont < 3) {
         document.getElementById("pontok").innerText = "A pontod: " + String(pont) + "\nEz nem az igazi, de egy RS 3-mast megérdemelsz";
 
     } else if (pont < 6) {
