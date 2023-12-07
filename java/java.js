@@ -324,15 +324,6 @@ function again() {
     document.getElementById("jo11").style.color = "white";
     document.getElementById("jo12").style.color = "white";
     document.getElementById("jo13").style.color = "white";
-    document.getElementById("1k").style.color = "white";
-    document.getElementById("2k").style.color = "white";
-    document.getElementById("3k").style.color = "white";
-    document.getElementById("4k").style.color = "white";
-    document.getElementById("5k").style.color = "white";
-    document.getElementById("6k").style.color = "white";
-    document.getElementById("7k").style.color = "white";
-    document.getElementById("8k").style.color = "white";
-    document.getElementById("9k").style.color = "white";
     document.getElementById("rossz1_1").style.color = "white";
     document.getElementById("rossz1_2").style.color = "white";
     document.getElementById("rossz2_1").style.color = "white";
